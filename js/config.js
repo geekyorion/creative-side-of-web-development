@@ -56,11 +56,11 @@ export default {
 
 	// Use 1 based indexing for # links to match slide number (default is zero
 	// based)
-	hashOneBasedIndex: false,
+	hashOneBasedIndex: true,
 
 	// Add the current slide number to the URL hash so that reloading the
 	// page/copying the URL will return you to the same slide
-	hash: false,
+	hash: true,
 
 	// Flags if we should monitor the hash and change slides accordingly
 	respondToHashChanges: true,
@@ -215,7 +215,7 @@ export default {
 	defaultTiming: null,
 
 	// Enable slide navigation via mouse wheel
-	mouseWheel: false,
+	mouseWheel: true,
 
 	// Opens links in an iframe preview overlay
 	// Add `data-preview-link` and `data-preview-link="false"` to customise each link
